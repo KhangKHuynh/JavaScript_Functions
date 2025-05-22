@@ -36,9 +36,9 @@ function Coord2(x, y) {
     } else if (x > 0 && y < 0) {
         return 4;
     } else if (x == 0 && y != 0) {
-        return "X Axis";
-    } else if (x != 0 && y == 0) {
         return "Y Axis";
+    } else if (x != 0 && y == 0) {
+        return "X Axis";
     } else {
         return "Origin";
     }
